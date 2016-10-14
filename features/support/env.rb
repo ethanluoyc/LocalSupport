@@ -30,9 +30,9 @@ end
 # prefer to use XPath just remove this line and adjust any selectors in your
 # steps to use the XPath syntax.
 Capybara.default_selector = :css
-Capybara.default_wait_time = 3
+Capybara.default_wait_time = 1
 
-Capybara.javascript_driver = :webkit
+Capybara.javascript_driver = :selenium
 Capybara::Webkit.configure do |config|
  #config.debug = true
  config.block_unknown_urls

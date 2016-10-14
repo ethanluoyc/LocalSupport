@@ -46,6 +46,7 @@ group :test do
   gem 'uri-handler'
   gem 'selenium'
   gem 'selenium-client'
+  gem 'selenium-webdriver'
   gem 'coveralls', require: false
   gem 'shoulda'
   gem 'vcr'
@@ -78,6 +79,7 @@ gem 'bootstrap_sortable_rails', '~> 0.1.3'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'pry'
 
 gem 'therubyracer'
 gem 'underscore-rails'
